@@ -92,11 +92,13 @@ def solve_sudoku(board):
 
 if __name__ == "__main__":
 # list reverse
+    print('reverse list-------------------------------:')
     l = [1,2,3,'adc',4,5,6,'t']
     if reverse_list(l):
         print(reverse_list(l))
 
 # sudoku
+    print('sudoku algorithm---------------------------:')
     input_board = [
         [7, 0, 0, 0, 0, 0, 0, 0, 0],
         [0, 0, 3, 6, 0, 0, 0, 0, 0],
